@@ -1,0 +1,24 @@
+
+<문서 목록>
+
+# 논문의 알고리즘이 무엇이 쓰였는 지 명세
+#알고리즘의 결과 분석
+#차트 3개 구현
+
+
+<유의사항>
+1. 수업에서 다뤘던 알고리즘, 부명제, 법칙들 중 적어도 하나를 포함해야 함
+2. Result, Analysis를 코드로 구현해야함(언어에 상관없음)
+3. 특히 차트는 3개 이상이어야 함 (중요)
+4. 가이드 라인에 따라 리포트를 작성해야함.
+5. 논문의 범위를 넘어서 분석하지 말 것*
+6. 구현보다는 비교에 집중할 것*
+
+#Title: A faster algorithm for the single source shortest path problem with few distinct positive lengths
+
+#Publisher: Elsevier B.V
+
+#Date: 20 March 2009
+
+#summary :
+modifies the first algorithm(Dijkstra’s algorithm) by using binary heaps to speed up the FindMin() operation. Assuming that nK > 2m, its running time is O(m log nKm )
